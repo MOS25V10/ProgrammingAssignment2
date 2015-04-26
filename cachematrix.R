@@ -1,5 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
+This function is incomplete. It was meant to create a vector, calculate the sum of the vector, and pull the sum. 
 
 NewVector <- function(x = numeric()) {
         s <- NULL
@@ -16,7 +15,7 @@ list(set = set, get = get,
 }
 
 
-## Write a short comment describing this function
+This function is incomplete. It was meant to pull the cached sum.
 
 cachesum <- function(x) {
         s <- x$getsum()
