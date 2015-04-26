@@ -15,7 +15,7 @@ list(set = set, get = get,
 }
 
 
-This function is incomplete. It was meant to pull the cached sum.
+This function is incomplete. It was meant to pull the cached sum and return its inverse.
 
 cachesum <- function(x) {
         s <- x$getsum()
@@ -28,5 +28,5 @@ cachesum <- function(x) {
         x$setsum(s)
         s
 }
-        ## Return a matrix that is the inverse of 'x'
-}
+       
+
